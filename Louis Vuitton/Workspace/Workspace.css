@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    }
+@font-face {
+    font-family: reg;
+    src: url(LouisVuitton-Regular.woff2);
+}   
+@font-face {
+    font-family: bol;
+    src: url(LouisVuitton-Bold.woff2);
+} 
+@font-face {
+    font-family: lig;
+    src: url(LouisVuitton-Light.woff2);
+}
+@font-face {
+    font-family: med;
+    src: url(LouisVuitton-Medium.woff2);
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.sec1{ 
+    border: 1px solid black;
+    color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+    
+}
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.header:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.3s;
+}
+.top{
+    
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.search,.logo,.navtopright{
+    
+    min-width: max-content;
+    display: flex;
+    align-items: center;
+    padding-inline: 60px;
+}
+.logo{
+    font-family:med;
+    font-size: 35px;
+    padding-inline-end: 0px;
+}
+.search div{
+        padding-inline-start: 11px;
+        font-family: reg;
+}
+.navtopright div{
+    padding-inline: 10px;
+    font-family: reg;
+}
+.nav{
+    display: flex;
+    height: 30%;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.navbut{
+    font-family: med;
+    padding-top: 8px;
+    padding-inline: 24px;
+    min-width: max-content;
+    height: 100%;
+    font-size: 13px;
+
+}
+
+.textbut{
+    height: 165px;
+    width: 100%;
+}
+.tex{
+height: 30%;
+display: flex;
+align-items: center;
+justify-content: left;
+}
+.but{
+height: 70%;
+
+display: flex;
+padding-inline-start: 45px;
+padding-block-start: 11px;
+}
+.textbut p{
+    font-family: 'med';
+    text-transform: uppercase;
+    font-size: 38px;
+    padding-inline-start: 44px;
+}
+.but button{
+    height: 54%;
+    width: 285px;
+    font-family: 'reg';
+    font-size: 16px;
+    border: none;
+}

@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+    }
+@font-face {
+    font-family: reg;
+    src: url(LouisVuitton-Regular.woff2);
+}   
+@font-face {
+    font-family: bol;
+    src: url(LouisVuitton-Bold.woff2);
+} 
+@font-face {
+    font-family: lig;
+    src: url(LouisVuitton-Light.woff2);
+}
+@font-face {
+    font-family: med;
+    src: url(LouisVuitton-Medium.woff2);
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.sec1{ 
+    color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(sec1.jpg);
+    
+    
+    
+}
+.header{
+    width: 100%;
+    height: 134px;
+    display: flex;
+    flex-direction: column;
+}
+.header:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.3s;
+}
+.top{
+    
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.search,.logo,.navtopright{
+    
+    min-width: max-content;
+    display: flex;
+    align-items: center;
+    padding-inline: 60px;
+}
+.logo{
+    font-family:med;
+    font-size: 35px;
+    padding-inline-end: 0px;
+}
+.search div{
+        padding-inline-start: 11px;
+        font-family: reg;
+}
+.navtopright div{
+    padding-inline: 10px;
+    font-family: reg;
+}
+.nav{
+    display: flex;
+    height: 30%;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.navbut{
+    font-family: med;
+    padding-top: 3px;
+    padding-inline: 24px;
+    min-width: max-content;
+    height: 100%;
+    font-size: 13px;
+}
+.navbut:hover{
+    border-bottom: 1px solid  black;
+    border-width: 80%;
+}
+
+.textbut{
+    height: 165px;
+    width: 100%;
+}
+.tex{
+height: 30%;
+display: flex;
+align-items: center;
+justify-content: left;
+}
+.but{
+height: 70%;
+
+display: flex;
+padding-inline-start: 45px;
+padding-block-start: 11px;
+}
+.textbut p{
+    font-family: 'med';
+    text-transform: uppercase;
+    font-size: 38px;
+    padding-inline-start: 44px;
+}
+.but button{
+    height: 54%;
+    width: 285px;
+    font-family: 'reg';
+    font-size: 16px;
+    border: none;
+}
+.sec2,.sec3,.sec4,.sec5,.sec6,.sec7{
+    
+    color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+   
+}
+.sec2{
+    background-image: url(sec2.jpg);
+}
+.sec3{
+    background-image: url(sec3.jpg);
+}
+.sec4{
+    background-image: url(sec4.jpg);
+}
+.sec5{
+    background-image: url(sec5.jpg);
+}
+.sec6{
+    background-image: url(sec6.jpg);
+}
+.sec7{
+    background-image: url(sec7.jpg);
+}
+
+
+
+
+.sec8{
+    color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+.service{
+    font-size: 28px;
+    font-family: med;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    
+}
+.images{
+  display: flex;
+  justify-content: space-between;
+  height: 80%;
+  padding-inline: 61px;
+}
+
+.left,.right{
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+}
+.pic{
+    height: 70%;
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+}
+
+.text{
+    height: 30%;
+}
+.sec8 h3{
+    font-family: reg;
+    padding-inline-start: 5px;
+    margin: 0;
+}
+.sec8 p{
+    margin: 0;
+    font-size: 19px;
+    padding-inline: 5px;
+    padding-block: 5px;
+    font-family: lig;
+}
+.sec8 a{
+    font-family: 'reg';
+    margin: 0;
+    padding-inline: 5px;
+    color: black;
+}
+.footer{
+    background-color: #19110b;
+    color: white;
+    display: flex;
+    height: 150px;
+    width: 100%;
+    flex-direction: column;
+}
+.up,.down{
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+.up{
+    font-family: med;
+    padding-inline: 66px;
+    
+    
+}
+.down{
+    
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.footnav{
+    font-family: 'med';
+    min-width: max-content;
+    height: 100%;
+    font-size: 17px;
+    margin-inline: 25px;
+    margin-block-start: 48px;
+}
+.footer hr{
+    width: 80%;
+    width: 90%;
+    height: 0px;
+    border-block-color: #392d23
+
+}
