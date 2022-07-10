@@ -1,0 +1,398 @@
+* {
+box-sizing: border-box;
+}
+@font-face {
+    font-family: bol;
+    src: url(fonts/Montserrat-Bold.ttf);
+    
+}
+@font-face {
+    font-family: lig;
+    src: url(fonts/Montserrat-Light.ttf);
+}
+sub{
+    position: relative;    
+}
+
+body,header{
+    margin: 0;
+    padding: 0;
+    color: gray;
+    line-height: 1.7;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+#header{
+    margin:0;
+    padding-top: 25px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+   
+}
+header .text{
+color: black;
+font-family: bol;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.section1 {
+    margin-inline: 100px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+   
+
+.left-section img{
+    width: 635px;
+    height:357px;
+    margin-bottom: 100px;
+}
+
+.right-section{
+    margin-left: 60px;
+    width: 400px;
+    margin-bottom: 150px;
+}
+.right-section .h2{
+    margin-top: 150px;
+    
+    line-height: 45px;
+    font-weight: 255px;
+    font-size: 40px;
+    font-family: bol;
+    color: black;
+}
+p{
+    font-family: lig;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-inline-end: 3px;
+    margin-bottom: 20px;
+    margin-top: 0%;
+    line-height: 23px;
+    color: black;
+    
+}
+.right-section button{
+    padding-block: 15px;
+    padding-inline: 35px;
+    border-radius: 50px;
+    color: black;
+    background-color:#00d2b5;
+    font-size: 1rem;
+    font-family: lig;
+    font-weight: 500;
+    border: 2px solid white;
+    border-color: aqua;
+    margin-bottom: 10px;
+
+}
+.right-section h6{
+    font-family: lig;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-inline-end: 3px;
+    margin-bottom: 20px;
+    margin-top: 0%;
+    
+    color: black;
+}
+.right-section button:hover{
+    background-color: white;
+}
+
+/* Features(section 2) */
+
+.section2{
+    
+    height: 400px;
+    background-color:#f6f6f6;
+    width: 100%;
+    display: flex;
+}
+
+.section2 .container{
+    background-color:#f6f6f6;
+    margin-inline: 150px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.features{
+    font-size: 44px;
+    width: 100%;
+    height: 90px;
+    color: #00d2b5;
+    font-family: bol; 
+    text-align: center;
+    background-color: #f6f6f6;
+}
+.container .flex{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 250px;
+    
+
+}
+.one,.two,.three{
+    flex: 1;
+    background-color: white;
+    margin: 10px;
+    flex-direction: row;
+    border-radius: 3%;
+}
+.one:hover,.two:hover,.three:hover{
+    background-color:#00d2b5 ;
+    color: white;
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
+    
+}
+.container h3{
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: lig;
+    
+
+
+}
+.container h6{
+    font-size: 14px;
+    line-height: 22px;
+    font-family: lig;
+    font-weight: 300;
+    margin-inline: 20px;
+    margin-top: -12px;
+
+}
+
+.container .icon{
+    margin-inline: 15px;
+    margin-block: 15px;
+    width: 35px;
+    height: 35px;
+    background-color: #00d2b5;
+    border-radius: 50%;
+    display: flex;
+    
+}
+i{
+
+ color: white;
+ margin-inline-start: 7px;
+ margin-block-start: 8px;
+ font-size: 18px;
+ 
+}
+.section3 {
+    
+    margin-inline: 100px;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+.right-section hr{
+    border-color:white;
+    border-style:solid; 
+
+}
+.section3 .right-section{
+    height: 698px;
+}
+hr{
+    width: 1200px;
+    margin-top: 19px;
+    border-color: #d7d7d7;
+    border-style: solid;
+}
+.h1{
+    margin-top: 46px;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    color: black;
+    font-family: bol;
+}
+.h1 h1{
+    margin-inline-start: 101px;
+    font-size: 41px;
+}
+.flow1 img{
+    margin-inline-start: 88px;
+    margin-block-start: 59px;
+}
+.table-sec{
+    background-color: #f6f6f6;
+    width: 100%;
+    height: 768px;
+    display:flex ;
+    align-items: center;
+    padding-inline-start: 95px;
+    padding-block-end: 49px;
+}
+.table-sec h1{
+    font-weight: 500;
+   
+    padding-inline-start: 34px;
+    font-family: 'lig';
+    font-size: 18px;
+    padding-block-start: 32px;
+}
+    
+
+
+.table-sec .container{
+    display: flex;
+    width: 92%;
+    height: 656px;
+    background-color: aqua;
+}
+
+.leftpart ,.rightpart{
+background-color: #f6f6f6;
+width: 50%;
+height:100% ;
+
+}
+.leftelem,.rightelem{
+    width: 96%;
+    height:100px ;
+    margin: 22px;
+    background-color: white;
+    border-radius: 10px;
+}
+.leftelem:hover,.rightelem:hover{
+    background-color: #00d2b5;
+    color: white;
+    transform: translateY(-7px);
+    transition-duration: 0.5s; 
+}
+.whocanjoinsps{
+    width: 100%;
+    height:608px ;
+    padding-inline-start: 115px;
+}
+.whocanjoinsps img{
+    width: 1080px;
+    height: 608px;
+}
+
+.flow2{
+    width: 100%;
+}
+.flow2 img{
+    margin-inline-start: 88px;
+    margin-block-start: 59px;
+}
+.faq{
+    width: 100%;
+    height: 600px;
+    
+    display: flex;
+    align-items: center;
+}
+.faq .container{
+    display: flex;
+    width: 100%;
+    height:500px ;
+    align-items: center;
+    
+    padding-inline: 104px;
+}
+.faq .left, .faq .right{
+    height: 600px;
+    width: 100%;
+    padding: 117px;
+    display: flex;
+    flex-direction: column;
+}
+.right .contact{
+    width: 100%;
+    height: 200px;
+    
+    display: flex
+}
+.contact-icon{
+    padding-block-start: 12px;
+    width: 30%;
+    height: 100%;
+    color: black;
+    padding-inline-start: 64px;
+    
+    color: black;
+}
+.det{
+    width: 70%;
+    height: 100%;
+   
+}
+.contact h3 {
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: lig;
+    color: black;
+}
+.contact h6 {
+    
+    font-size: 14px;
+    line-height: 22px;
+    font-family: lig;
+    font-weight: 300;
+    margin-inline: 20px;
+    margin-top: -12px;
+    color: #22d1b5;
+}
+.contact i{
+   color: black;
+}
+footer .container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    background-color: white;
+    
+}
+.social-icon ,.copyright{
+     flex: 1;
+     display: flex;
+     justify-content: center;
+     font-family: 'lig';
+     color: #37d3ba;
+
+}
+.social-icon .ic{
+    width: 50px;
+    height: 50px;
+    margin-block-start: 10px;
+    padding-block-start: 15px;
+    padding-inline-start: 12px;
+    
+}
+.ic i{
+    color: #37d3ba;
+}
+
+    
+
+
+
